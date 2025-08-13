@@ -2,4 +2,4 @@
 cmds = ["echo building!"]
 
 [start]
-cmds = ["cd apps/open-swe && yarn dev & cd ../web && yarn dev"]
+cmd = "cd apps/open-swe && yarn dev & cd ../web && yarn dev"
