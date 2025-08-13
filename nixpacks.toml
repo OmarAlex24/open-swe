@@ -2,4 +2,4 @@
 cmds = ["echo building!"]
 
 [start]
-cmd = "cd apps/open-swe && yarn dev & cd ../web && yarn dev"
+cmd = "concurrently \"yarn --cwd apps/open-swe dev\" \"yarn --cwd apps/web dev\""
