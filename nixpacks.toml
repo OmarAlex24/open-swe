@@ -1,5 +1,5 @@
 [phases.build]
 cmds = ["echo building!"]
 
-[phases.start]
+[start]
 cmds = ["pnpm dev"]
